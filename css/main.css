@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1024px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.input-search {
+    margin: 30px auto;
+    padding: 0.5em;
+    width: 50%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 20px;
+}
